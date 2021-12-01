@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b306456c74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cronometro"></div>
+        <div class="vidas">12</div>
+        <div class="score">0</div>
+    </div>
+
+
+    <div id="tablero">
+    </div>
+    <br>
+    <div class="nuevo-juego" onclick="parar()">
+        nuevo juego
+        <audio class="sonido">
+            <source src="sfx-pop.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div class="perdiste">¡Perdiste Amigue!</div>
+    <div class="ganaste">¡Ganaste Amigue!</div>
+    <script src="code.js"></script>
+</body>
+
+</html>
